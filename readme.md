@@ -1,0 +1,3 @@
+# Horiseon Website Design
+
+For this project there were a few things that I changed. In order to clean to code up for easier veiwing I moved the CSS code around so that it is the same structure as the HTML code. Instead of saying website in the title section I changed it to show the company name, Horiseon. I decided to make the "seo" in the header section a little darker in order to emphasis it more. Added the alt commands to all img's in order to to make the page more accessable. Removed some unecessary CSS coding that was not changing the view of the page. In order to get the search-engine-optimization link to work I added the ID command to the code. Added comments in the CSS coding in order to make it easier to read.
