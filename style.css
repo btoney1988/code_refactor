@@ -1,4 +1,3 @@
-/** CSS reset making the page look the same in all browsers. **/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +8,6 @@ body {
     background-color: #d9dcd6;
 }
 
-/** Setting up the header to be at the top of the page as well as style. **/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,12 +20,10 @@ h1 {
     font-size: 48px;
 }
 
-/** Made the color darker to emphisis the "seo" more.**/
 .seo {
     color: #d9dcd698;
 }
 
-/** Placing the list of links to the top right of the page including style. **/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,21 +31,15 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
-    }
+}
 
 a {
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
     margin-left: 25px; 
-    float: right;
 }
 
-p {
-    font-size: 16px;
-}
-
-/** Placing the picture of people working together just under the header. **/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,25 +48,23 @@ p {
     background-position: center;
 }
 
-/** Setting the content up in the lower left of the page. **/
 article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/**Setting all image height in article section. **/
-article img {
-    max-height: 200px;
+article section{
+    margin-bottom: 50px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
-article section{
-        margin-bottom: 20px;
-        padding: 50px;
-        height: 300px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: #0072bb;
-        color: #ffffff;
+article img {
+    max-height: 200px;
 }
 
 h2 {
@@ -84,19 +72,20 @@ h2 {
     font-size: 36px;
 }
 
-/** Bringing the images to the left side. **/
+p {
+    font-size: 16px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/** Bringing the image to the right of the section. **/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/** Pushes the aside section to the right.**/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -108,26 +97,26 @@ aside {
     background-color: #2589bd;
 }
 
+aside section{
+    margin-bottom: 8px;
+    color: #ffffff;
+    padding: 20px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
 
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/** Setting all aside images display, margin, and width. **/
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/** Setting the aside section margin and color. **/
-aside section{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/** Setting footer to the bottom center. **/
 footer {
     padding: 30px;
     clear: both;
