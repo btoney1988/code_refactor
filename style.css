@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* This is for the header section */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,7 +41,8 @@ a {
     margin-left: 25px; 
 }
 
-.hero {
+/* This is for the figure section. */
+figure img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -48,13 +50,14 @@ a {
     background-position: center;
 }
 
-article {
+/* This is for the main section. */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-article section{
+main section{
     margin-bottom: 50px;
     padding: 50px;
     height: 300px;
@@ -63,7 +66,7 @@ article section{
     color: #ffffff;
 }
 
-article img {
+main img {
     max-height: 200px;
 }
 
@@ -86,6 +89,7 @@ p {
     margin-left: 25px;
 }
 
+/* This is for the aside section. */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -117,6 +121,7 @@ aside img {
     max-width: 150px;
 }
 
+/* This is for the footer section. */
 footer {
     padding: 30px;
     clear: both;
